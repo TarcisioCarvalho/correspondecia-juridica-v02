@@ -14,8 +14,9 @@
     --cor:#16081E;
 }
 
+
 .cabecalho{
-    background-color: var(--cor);
+    background-color: #16081E;
 }
 
 .fonte-descricao{
@@ -45,30 +46,40 @@
 }
 
 .principal .menu .menu-item{
-    font-size: 24px;
+    font-size: 1rem;
 }
 
 
 .sobre{
     margin: 0 auto;
-    width: 80%;
-    margin-top: 50px;
+    width: 60%;
+    margin-top: 10%;
     display: flex;
     flex-direction: column;
     gap: 10px;
     align-items: center;
+    margin-bottom: 10%;
+}
+
+.sobre-titulo {
+    margin-bottom: 5%;
 }
 
 .sobre-div{
     display: flex;
+    justify-content: space-around;
     align-items: center;
 }
 
+
+
 .sobre .sobre-imagem{
-    height: 300px;
+    height: 200px;
+    border-radius: 100%;
 }
 
 .sobre .sobre-texto{
+    width: 50%;
     display: flex;
     flex-direction: column;
     flex-wrap: wrap;
@@ -76,7 +87,9 @@
     height: 100%;
 }
 
-
+.sobre-descricao{
+    text-align: justify;
+}
 
 .descricao-atividades{
     margin-top: 10px;
@@ -85,10 +98,15 @@
 }
 
 .descricao-atividades-colunas{
-    margin-top: 20px;
+    margin-top: 10%;
     display: flex;
     justify-content: space-around;
     align-items: top;
+    margin-bottom: 10%;
+}
+
+.titulo-descricao-atividades{
+    margin-top: 4%;
 }
 
 .coluna{
@@ -226,4 +244,9 @@ li{
 .coluna1-texto{
     padding-top: 10%;
     text-align: center;
+}
+
+.menu-item{
+    color: black;
+    font-size: 1px;
 }
