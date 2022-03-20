@@ -1,0 +1,161 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+.cabecalho{
+    background-color: blueviolet;
+}
+
+.cabecalho .logo{
+    height: 100px;
+    display: block;
+    margin: 0 auto;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+.principal{
+    margin-top: 10px;
+}
+
+.principal .menu{
+    display: flex;
+    justify-content: space-around;
+}
+
+.principal .menu .menu-item{
+    font-size: 24px;
+}
+
+
+.sobre{
+    margin: 0 auto;
+    width: 80%;
+    margin-top: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.sobre .sobre-imagem{
+    height: 300px;
+}
+
+.sobre .sobre-texto{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    text-align: center;
+    height: 100%;
+}
+
+
+
+.descricao-atividades{
+    margin-top: 10px;
+    background-color: blueviolet;
+    text-align: center;
+}
+
+.descricao-atividades-texto{
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    width: 80%;
+    color: white;
+}
+
+.whatsapp {
+    position: fixed;
+    top: 78%;
+    left: 90%;
+    padding: 10px;
+    z-index: 10000000;
+    height: 72px;
+    border-radius: 100%;
+}
+.areas-atuacao{
+    margin-top: 100px;
+}
+
+.areas-atuacao-titulo{
+    text-align: center;
+    color: blueviolet;
+}
+
+.areas-atuacao-div{
+    padding-top: 20px;
+    width: 80%;
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.areas-atuacao-itens{
+    margin-top: 10px;
+    width: 33%;
+    color: blueviolet;
+}
+
+.circulo {
+    margin: 0 auto;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background-color: blueviolet;
+    }
+
+.texto{
+    font-size: 24px;
+}
+
+.areas-atuacao-descricao{
+    width: 80%;
+    margin: 0 auto;
+    height: 200px;
+    line-height: 200px;
+    text-align: center;
+    vertical-align: middle;
+}
+
+.consultoria-lgpd{
+    margin-top: 15px;
+}
+
+.consultoria-lgpd-texto{
+    width: 80%;
+    margin: 0 auto;
+    text-align: center;
+    color: black;
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+}
+
+.contato{
+    margin-top: 15px;
+}
+
+.contato-texto{
+    display: flex;
+    flex-direction: column;
+    gap: 6px;
+    text-align: center;
+    margin: 0 auto;
+    width: 60%;
+}
+
+.rodape{
+    background-color: blueviolet;
+}
+
+.rodape-texto{
+    display: flex;
+    justify-content: center;
+    color: white;
+    padding: 5px;
+    font-size: 24px;
+}
