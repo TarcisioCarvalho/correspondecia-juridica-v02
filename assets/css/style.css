@@ -10,7 +10,7 @@
 }
 
 .cabecalho .logo{
-    height: 100px;
+    height: 150px;
     display: block;
     margin: 0 auto;
     padding-top: 20px;
@@ -35,8 +35,14 @@
     width: 80%;
     margin-top: 50px;
     display: flex;
+    flex-direction: column;
+    gap: 10px;
     align-items: center;
-    justify-content: space-around;
+}
+
+.sobre-div{
+    display: flex;
+    align-items: center;
 }
 
 .sobre .sobre-imagem{
@@ -110,6 +116,7 @@
 
 .texto{
     font-size: 24px;
+    text-align: center;
 }
 
 .areas-atuacao-descricao{
@@ -158,4 +165,8 @@
     color: white;
     padding: 5px;
     font-size: 24px;
+}
+
+.caixa-alta{
+    text-transform: uppercase;
 }
