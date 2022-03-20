@@ -92,7 +92,7 @@
 }
 
 .coluna{
-    width: 33%;
+    width: 30%;
     margin-bottom: 20px;
 }
 
@@ -211,10 +211,19 @@
     text-transform: uppercase;
 }
 
-ul{
-}
+
 
 li{
     text-align: left;
     font-size: 1rem;
+}
+
+.lista{
+    padding-top: 10%;
+    padding-bottom: 10%;
+}
+
+.coluna1-texto{
+    padding-top: 10%;
+    text-align: center;
 }
