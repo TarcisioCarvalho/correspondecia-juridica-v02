@@ -4,9 +4,12 @@
     box-sizing: border-box;
     text-decoration: none;
 }
+:root{
+    --cor:#0f0614;
+}
 
 .cabecalho{
-    background-color: blueviolet;
+    background-color: var(--cor);
 }
 
 .cabecalho .logo{
@@ -61,10 +64,21 @@
 
 .descricao-atividades{
     margin-top: 10px;
-    background-color: blueviolet;
+    background-color: var(--cor);
     text-align: center;
 }
 
+.descricao-atividades-colunas{
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-around;
+    align-items: top;
+}
+
+.coluna{
+    width: 33%;
+    margin-bottom: 20px;
+}
 .descricao-atividades-texto{
     margin: 0 auto;
     display: flex;
@@ -89,7 +103,7 @@
 
 .areas-atuacao-titulo{
     text-align: center;
-    color: blueviolet;
+    color: var(--cor);
 }
 
 .areas-atuacao-div{
@@ -103,7 +117,7 @@
 .areas-atuacao-itens{
     margin-top: 10px;
     width: 33%;
-    color: blueviolet;
+    color: var(--cor);
 }
 
 .circulo {
@@ -111,7 +125,7 @@
     width: 50px;
     height: 50px;
     border-radius: 50%;
-    background-color: blueviolet;
+    background-color: var(--cor);
     }
 
 .texto{
@@ -156,7 +170,7 @@
 }
 
 .rodape{
-    background-color: blueviolet;
+    background-color: var(--cor);
 }
 
 .rodape-texto{
@@ -169,4 +183,8 @@
 
 .caixa-alta{
     text-transform: uppercase;
+}
+
+ul{
+    list-style: none;
 }
