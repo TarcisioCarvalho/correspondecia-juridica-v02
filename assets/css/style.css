@@ -1,8 +1,14 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,500;1,300&display=swap');
+
+
+
 *{
     margin: 0px;
     padding: 0px;
     box-sizing: border-box;
     text-decoration: none;
+    font-family: 'Roboto', sans-serif;
 }
 :root{
     --cor:#16081E;
@@ -10,6 +16,16 @@
 
 .cabecalho{
     background-color: var(--cor);
+}
+
+.fonte-descricao{
+    font-family: 'Roboto', sans-serif;
+    font-weight: 300;
+}
+
+.fonte-titulo{
+    font-family: 'Roboto', sans-serif;
+    font-weight: 700;
 }
 
 .cabecalho .logo{
@@ -78,6 +94,16 @@
 .coluna{
     width: 33%;
     margin-bottom: 20px;
+}
+
+.coluna1{
+    width: 25%;
+    text-align: justify;
+}
+
+.coluna1-titulo{
+    text-align: center;
+    padding-bottom: 10px;
 }
 .descricao-atividades-texto{
     margin: 0 auto;
@@ -186,5 +212,9 @@
 }
 
 ul{
-    list-style: none;
+}
+
+li{
+    text-align: left;
+    font-size: 1rem;
 }
