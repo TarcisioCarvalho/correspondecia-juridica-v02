@@ -1,8 +1,19 @@
 @media screen and (max-width:560px) {
-
+    body{
+        border:1px solid red;
+        width: 100%;
+    }
+    .cabecalho .logo{
+        height: 75px;
+        display: block;
+        margin: 0 auto;
+        padding-top: 2%;
+        padding-bottom: 2%;
+    }
     .principal .menu{
         display: flex;
-        justify-content:safe;
+        flex-direction: column;
+        align-items: center;
         flex-wrap: wrap;
     }
 
@@ -66,5 +77,23 @@
         display: flex;
         justify-content: center;
     }
+
+    .whatsapp {
+    position: fixed;
+    top: 78%;
+    left: 80%;
+    padding: 1%;
+    z-index: 10000000;
+    height: 48px;
+    border-radius: 100%;
+}
+
+.rodape-texto{
+    display: flex;
+    justify-content: center;
+    color: white;
+    padding: 1%;
+    font-size: 0.8rem;
+}
     
 }
