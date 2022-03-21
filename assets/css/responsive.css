@@ -1,0 +1,70 @@
+@media screen and (max-width:560px) {
+
+    .principal .menu{
+        display: flex;
+        justify-content:safe;
+        flex-wrap: wrap;
+    }
+
+    .sobre{
+
+        width: 100%;
+        margin-top: 10%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin-bottom: 10%;
+    }
+
+    .sobre-div{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        align-items: center;
+    }
+    
+    .descricao-atividades-colunas{
+        margin-top: 10%;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        align-items: center;
+        margin-bottom: 10%;
+    }
+
+    .coluna1{
+        width: 100%;
+        text-align: justify;
+        padding-bottom: 8%;
+    }
+    
+
+    .areas-atuacao{
+        border: 1px solid pink;
+        width: 100%;
+    }
+
+    .areas-atuacao-div{
+        border: 1px solid red;
+        padding-top: 2%;
+        width: 100%;
+        margin: 0 auto;
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+    }
+
+    .areas-atuacao-itens{
+        margin-top: 5%;
+        width: 33%;
+        color: var(--cor);
+    }
+
+    .areas-atuacao-responsivo{
+        width: 100%;
+        border: 1px solid green;
+        display: flex;
+        justify-content: center;
+    }
+    
+}
