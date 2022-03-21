@@ -1,6 +1,5 @@
 @media screen and (max-width:560px) {
     body{
-        border:1px solid red;
         width: 100%;
     }
     .cabecalho .logo{
@@ -51,12 +50,10 @@
     
 
     .areas-atuacao{
-        border: 1px solid pink;
         width: 100%;
     }
 
     .areas-atuacao-div{
-        border: 1px solid red;
         padding-top: 2%;
         width: 100%;
         margin: 0 auto;
@@ -73,7 +70,6 @@
 
     .areas-atuacao-responsivo{
         width: 100%;
-        border: 1px solid green;
         display: flex;
         justify-content: center;
     }
