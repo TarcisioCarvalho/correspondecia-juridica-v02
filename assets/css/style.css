@@ -43,11 +43,22 @@
 .principal .menu{
     display: flex;
     justify-content: space-around;
+    list-style: none;
 }
 
 .principal .menu .menu-item{
     font-size: 1.2rem;
+    text-decoration: none;
 }
+
+.principal .menu .menu-item:hover{
+    background-color: rgba(0, 0, 0, .5);
+}
+
+.button{
+    display: none;
+}
+
 
 
 .sobre{
