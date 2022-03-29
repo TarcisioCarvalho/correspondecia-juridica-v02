@@ -64,12 +64,14 @@ body{
 }
 
 .sobre-titulo {
+    margin-top: 4%;
     margin-bottom: 5%;
 }
 
 .sobre-imagem{
     height: 200px;
-    border-radius: 100%;
+    width: 200px;
+    border-radius: 100px;
 }
 
 @media screen and (min-width:1000px){
@@ -112,8 +114,6 @@ body{
     background-color: var(--cor);
     text-align: center;
 }
-
-
 .descricao-atividades-colunas{
     margin-top: 10%;
     display: flex;
@@ -122,33 +122,26 @@ body{
     align-items: center;
     margin-bottom: 10%;
 }
-
-
 .titulo-descricao-atividades{
     margin-top: 4%;
 }
-
 .coluna{
     width: 100%;
     margin-bottom: 8%;
 }
-
 .coluna1{
     width: 100%;
     text-align: justify;
 }
-
 .lista{
     padding-top: 10%;
     padding-bottom: 10%;
     width: 100%;
 }
-
 li{
     text-align: left;
     font-size: 1rem;
 }
-
 .coluna1-titulo{
     text-align: center;
     padding-bottom: 3%;
@@ -337,11 +330,21 @@ border-radius: 100%;
     flex-direction: column;
     width: 75vw;
     height: 100vh;
-    background-color: #15191C;
-    gap: 5px;
+    background-color: var(--cor);
+    gap: 15px;
     transition: .3s;
     position: absolute;
+    color: #ffffff;
     left: -100vw;
+    top: 20%;
+}
+
+.menu-item{
+    
+}
+
+.menu-item:hover{
+    background-color: rgba(0, 0, 0, 0.5);
 }
 
 .active{
@@ -383,16 +386,16 @@ border-radius: 100%;
     position: relative;
 }
 
-.menu.active .hamburguer{
+.nav.active .hamburguer{
     border-top-color:transparent ;
     transition: 2s;
 }
 
-.menu.active .hamburguer::before{
+.nav.active .hamburguer::before{
     transform: rotate(135deg) ;
 }
 
-.menu.active .hamburguer::after{
+.nav.active .hamburguer::after{
     transform: rotate(-135deg) ;
     top: -7px;
 }
