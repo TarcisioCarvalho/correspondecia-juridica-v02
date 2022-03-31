@@ -99,8 +99,7 @@ body{
 }
 
 .sobre-descricao{
-    text-align:justify;
-    word-spacing: -2px;
+    text-align:left;
 }
 
 @media screen and (min-width:1000px){
@@ -114,13 +113,13 @@ body{
 .correspondecia-juridica{
     margin-top: 10%;
     background-color: var(--cor);
-    text-align:justify;
+    text-align:left;
     word-spacing:-2px;
     color: white;
     padding: 10% 8%;
     display: flex;
     flex-direction: column;
-    gap: 10px;
+    gap: 20px;
 }
 
 .correspondencia-juridica__titulo{
@@ -243,7 +242,7 @@ body{
 
 .consultoria-lgpd-texto{
     padding: 10% 8%;
-    text-align:justify;
+    text-align:left;
     word-spacing:-2px;
     display: flex;
     flex-direction: column;
