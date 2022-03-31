@@ -106,59 +106,34 @@ body{
     flex-direction: row;
 }
 }
-/* Início Descrição atividades */
+/* Início Correspondência Jurídica */
 
 
-.descricao-atividades{
+.correspondecia-juridica{
     margin-top: 10%;
     background-color: var(--cor);
-    text-align: center;
-}
-.descricao-atividades-colunas{
-    margin-top: 10%;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-around;
-    align-items: center;
-    margin-bottom: 10%;
-}
-.titulo-descricao-atividades{
-    margin-top: 4%;
-}
-.coluna{
-    width: 100%;
-    margin-bottom: 8%;
-}
-.coluna1{
-    width: 100%;
     text-align: justify;
-}
-.lista{
-    padding-top: 10%;
-    padding-bottom: 10%;
-    width: 100%;
-}
-li{
-    text-align: left;
-    font-size: 1rem;
-}
-.coluna1-titulo{
-    text-align: center;
-    padding-bottom: 3%;
-}
-
-.coluna1-texto{
-    padding-top: 10%;
-    text-align: center;
-}
-
-.descricao-atividades-texto{
-    margin: 0 auto;
+    color: white;
+    padding: 10%;
     display: flex;
     flex-direction: column;
-    gap: 5px;
-    width: 80%;
-    color: white;
+    gap: 10px;
+}
+
+.correspondencia-juridica__titulo{
+    text-align: center;
+}
+
+.correspondencia-juridica__sobre{
+    text-align: center;
+}
+
+.correspondecia-juridica__paragrafo--servicos{
+    font-weight: 700;
+}
+
+.correspondencia-juridica__link{
+    text-align: center;
 }
 
 
@@ -177,9 +152,38 @@ li{
 }
 
 
-/* FIM Descrição atividades */
+/* FIM Correspondência Jurídica */
 
 /* Início Areas Atuação */
+.areas-atuacao-titulo{
+    padding-top: 5%;
+    text-align: center;
+    padding-bottom: 5%;
+}
+
+.areas-atuacao-div{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    grid-template-rows: repeat(2,1fr) ;
+    align-items: center;
+    row-gap: 5%;
+    padding-bottom: 5%;
+    margin-bottom: 5%;
+}
+
+
+.circulo {
+    margin:auto;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background-color: var(--cor);
+}
+.texto{
+    text-align:center;
+}
+
+/*
 .areas-atuacao{
     width: 100%;
     margin-top: 10%;
@@ -206,16 +210,11 @@ li{
     width: 33%;
     color: var(--cor);
 }
+*/
 
 
 
-.circulo {
-    margin: 0 auto;
-    width: 50px;
-    height: 50px;
-    border-radius: 50%;
-    background-color: var(--cor);
-}
+/*
 .texto{
     font-size: 1.5rem;
     text-align: center;
@@ -228,22 +227,27 @@ li{
     text-align: center;
     vertical-align: middle;
 }
-
+*/ /* Inicio Consultoria*/
 .consultoria-lgpd{
+    background-color: var(--cor);
+    color: white;
     margin-top: 4%;
+    padding: 4% 0%;
+}
+.consultoria-lgpd-texto__titulo{
+    text-align: center;
 }
 
 .consultoria-lgpd-texto{
     width: 80%;
     margin: 0 auto;
-    text-align: center;
-    color: black;
+    text-align: justify;
     display: flex;
     flex-direction: column;
     gap: 16px;
 }
 
-
+/* Fim Consultoria*/
 .areas-atuacao-responsivo{
     width: 100%;
     display: flex;
@@ -339,9 +343,7 @@ border-radius: 100%;
     top: 20%;
 }
 
-.menu-item{
-    
-}
+
 
 .menu-item:hover{
     background-color: rgba(0, 0, 0, 0.5);
@@ -352,9 +354,15 @@ border-radius: 100%;
     left: 0;
 }
 
+@media screen and (min-width:1000px){
+    .menu{
+        position: relative;
+        width: auto;
+        height: auto;
+    }
+}
+
 /*Fim Menu */
-
-
 .button{
     color: white;
     position: absolute;
@@ -367,14 +375,11 @@ border-radius: 100%;
     cursor: pointer;
     gap: .5;
 }
-
-
 .hamburguer{
     display: block;
     border-top: 2px solid ;
     width: 20px;
 }
-
 .hamburguer::after, .hamburguer::before{
     content: '';
     display: block;
@@ -385,18 +390,28 @@ border-radius: 100%;
     transition: .3s;
     position: relative;
 }
-
 .nav.active .hamburguer{
     border-top-color:transparent ;
     transition: 2s;
 }
-
 .nav.active .hamburguer::before{
     transform: rotate(135deg) ;
 }
-
 .nav.active .hamburguer::after{
     transform: rotate(-135deg) ;
     top: -7px;
+}
+
+@media screen and (min-width:1000px){
+    .button{
+        display: none;
+    }
+    .hamburguer{
+        display: none;
+    }
+    .hamburguer::after, .hamburguer::before{
+        display: none;
+    }
+    
 }
 
