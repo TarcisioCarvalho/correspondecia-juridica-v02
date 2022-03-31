@@ -86,7 +86,7 @@ body{
     flex-direction: column;
     justify-content: space-around;
     align-items: center;
-    padding: 0 25%;
+    padding: 0 10%;
 }
 
 .sobre .sobre-texto{
@@ -117,7 +117,7 @@ body{
     text-align:justify;
     word-spacing:-2px;
     color: white;
-    padding: 10% 25%;
+    padding: 10% 8%;
     display: flex;
     flex-direction: column;
     gap: 10px;
@@ -242,7 +242,7 @@ body{
 }
 
 .consultoria-lgpd-texto{
-    padding: 10% 25%;
+    padding: 10% 8%;
     text-align:justify;
     word-spacing:-2px;
     display: flex;
@@ -327,7 +327,7 @@ border-radius: 100%;
 /* Fim Rodape */
 
 .coluna1-texto{
-    padding-top: 10%;
+    padding-top: 8%;
     text-align: center;
 }
 /* Início Menu */
