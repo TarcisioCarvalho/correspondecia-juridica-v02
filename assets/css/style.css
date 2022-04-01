@@ -76,17 +76,12 @@ body{
     background-size: cover;
     background-position: center;
 }
-.sobre-imagem{
-    
-}
-
 @media screen and (min-width:1000px){
     .sobre{
         margin: 0 auto;
         width: 60%;
     }
 }
-
 .sobre-div{
     display: flex;
     flex-direction: column;
