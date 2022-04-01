@@ -67,15 +67,12 @@ body{
     margin-top: 4%;
     margin-bottom: 5%;
 }
-.sobre-div-imagem{
+.sobre-imagem{
     width: 225px;
     height: 225px;
     border-radius: 50%;
-    background-image: url('/assets/img/pammarch6.jpeg');
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center;
 }
+
 @media screen and (min-width:1000px){
     .sobre{
         margin: 0 auto;
