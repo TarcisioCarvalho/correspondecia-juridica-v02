@@ -24,6 +24,7 @@ body{
 
 .cabecalho{
     background-color: #16081E;
+    height: 20vh;
 }
 
 .fonte-descricao{
@@ -337,21 +338,16 @@ border-radius: 100%;
     transition: .3s;
     position: absolute;
     color: #ffffff;
+    top: 20vh;
     left: -100vw;
-    top: 20%;
 }
-
-
-
 .menu-item:hover{
     background-color: rgba(0, 0, 0, 0.5);
 }
-
 .active{
     transition: .3s;
     left: 0;
 }
-
 @media screen and (min-width:1000px){
     .menu{
         position: relative;
